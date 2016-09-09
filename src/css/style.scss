@@ -32,10 +32,17 @@
 //     Module
 // =========================================================
 
+// =========================================================
+//     Main
+// =========================================================
 body {
   background: #CCC;
 }
 
 h1 {
   @include sprite($site-logo);
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  margin: 3em auto;
 }
